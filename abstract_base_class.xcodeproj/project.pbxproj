@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		5102ECF723011519007DD44A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5102ECF623011519007DD44A /* main.cpp */; };
+		5102ED002301163B007DD44A /* Point.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5102ECFE2301163B007DD44A /* Point.cpp */; };
+		5102ED0323011710007DD44A /* Circle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5102ED0123011710007DD44A /* Circle.cpp */; };
+		5102ED062301308B007DD44A /* Cylinder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5102ED042301308B007DD44A /* Cylinder.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,13 @@
 /* Begin PBXFileReference section */
 		5102ECF323011519007DD44A /* abstract_base_class */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = abstract_base_class; sourceTree = BUILT_PRODUCTS_DIR; };
 		5102ECF623011519007DD44A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		5102ECFD23011558007DD44A /* Shape.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Shape.hpp; sourceTree = "<group>"; };
+		5102ECFE2301163B007DD44A /* Point.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Point.cpp; sourceTree = "<group>"; };
+		5102ECFF2301163B007DD44A /* Point.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Point.hpp; sourceTree = "<group>"; };
+		5102ED0123011710007DD44A /* Circle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Circle.cpp; sourceTree = "<group>"; };
+		5102ED0223011710007DD44A /* Circle.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Circle.hpp; sourceTree = "<group>"; };
+		5102ED042301308B007DD44A /* Cylinder.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Cylinder.cpp; sourceTree = "<group>"; };
+		5102ED052301308B007DD44A /* Cylinder.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Cylinder.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,13 @@
 			isa = PBXGroup;
 			children = (
 				5102ECF623011519007DD44A /* main.cpp */,
+				5102ECFD23011558007DD44A /* Shape.hpp */,
+				5102ECFE2301163B007DD44A /* Point.cpp */,
+				5102ECFF2301163B007DD44A /* Point.hpp */,
+				5102ED0123011710007DD44A /* Circle.cpp */,
+				5102ED0223011710007DD44A /* Circle.hpp */,
+				5102ED042301308B007DD44A /* Cylinder.cpp */,
+				5102ED052301308B007DD44A /* Cylinder.hpp */,
 			);
 			path = abstract_base_class;
 			sourceTree = "<group>";
@@ -118,7 +135,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5102ED002301163B007DD44A /* Point.cpp in Sources */,
+				5102ED0323011710007DD44A /* Circle.cpp in Sources */,
 				5102ECF723011519007DD44A /* main.cpp in Sources */,
+				5102ED062301308B007DD44A /* Cylinder.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
